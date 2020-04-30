@@ -33,7 +33,7 @@ def play(songs)
     if found_song
       puts "Playing #{found_song}"
     else 
-      
+      puts 
     end 
   end 
 end 
