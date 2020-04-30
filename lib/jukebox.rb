@@ -33,7 +33,7 @@ def play(songs)
   else 
     found_song = songs.find(user_input)
     if found_song
-      puts "Playing #{found_song}"
+      puts "Playing #{user_input}"
     else 
       puts "Invalid input, please try again"
     end 
