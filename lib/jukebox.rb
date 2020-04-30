@@ -24,6 +24,8 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input = gets.strip 
   is_number = user_input.to_i
+  if is_number > 0 
+    
 end 
 
 def list(songs)
