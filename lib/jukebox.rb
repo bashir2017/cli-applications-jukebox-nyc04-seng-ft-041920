@@ -59,13 +59,13 @@ def run
   while user_input != "exit" do 
     user_input = gets.strip 
     if user_input == "help"
-      help
+      help()
     elsif user_input == "play" 
       play(songs) 
     elsif user_input == "list"
       list(songs) 
     elsif user_input == "exit"
-      exit_jukebox
+      exit_jukebox()
     end 
   end 
   
