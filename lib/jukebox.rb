@@ -29,7 +29,12 @@ def play(songs)
       puts "Playing #{songs[is_number-1]}"
     end 
   else 
-    
+    found_song = songs.find(user_input)
+    if found_song
+      puts "Playing #{found_song}"
+    else 
+      
+    end 
   end 
 end 
 
