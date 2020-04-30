@@ -24,8 +24,10 @@ def play
   
 end 
 
-def list 
-  
+def list(songs)
+  songs.each do |song|
+    puts "#{}"
+  end 
 end 
 
 def exit_jukebox 
