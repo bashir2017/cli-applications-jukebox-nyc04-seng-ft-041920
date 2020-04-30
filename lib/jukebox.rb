@@ -34,7 +34,6 @@ def play(songs)
     end 
   else 
     found_song = songs.find {|song| song == user_input}
-    binding.pry 
     if found_song
       puts "Playing #{found_song}"
     else 
