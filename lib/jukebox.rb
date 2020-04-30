@@ -54,5 +54,10 @@ end
 
 
 def run 
-  puts 
+  puts "Please enter a command:"
+  user_input = gets.strip 
+  until user_input != "exit" do 
+    
+  end 
+  user_input()
 end 
