@@ -25,7 +25,12 @@ def play(songs)
   user_input = gets.strip 
   is_number = user_input.to_i
   if is_number > 0 
+    if is_number < songs.length 
+      puts "Playing #{songs[is_number-1]}"
+    end 
+  else 
     
+  end 
 end 
 
 def list(songs)
