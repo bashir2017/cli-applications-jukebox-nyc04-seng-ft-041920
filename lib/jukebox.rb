@@ -27,6 +27,8 @@ def play(songs)
   if is_number > 0 
     if is_number < songs.length 
       puts "Playing #{songs[is_number-1]}"
+    else 
+      puts "Invalid input, please try again"
     end 
   else 
     found_song = songs.find(user_input)
