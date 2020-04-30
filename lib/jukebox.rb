@@ -33,7 +33,7 @@ def play(songs)
       puts "Invalid input, please try again"
     end 
   else 
-    found_song = songs.find(user_input)
+    found_song = songs.find ||
     binding.pry 
     if found_song
       puts "Playing #{user_input}"
