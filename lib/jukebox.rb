@@ -1,4 +1,5 @@
 # Add your code here
+require 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -32,6 +33,7 @@ def play(songs)
     end 
   else 
     found_song = songs.find(user_input)
+    binding.pry 
     if found_song
       puts "Playing #{user_input}"
     else 
